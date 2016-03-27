@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03FC7ED225AB5312E04B91F3 /* libPods-TT瀑布流.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15554DA5E15FF345A201489A /* libPods-TT瀑布流.a */; };
 		18D048D71CA7A7F700F7C77F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D048D61CA7A7F700F7C77F /* main.m */; };
 		18D048DA1CA7A7F700F7C77F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D048D91CA7A7F700F7C77F /* AppDelegate.m */; };
 		18D048DD1CA7A7F700F7C77F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D048DC1CA7A7F700F7C77F /* ViewController.m */; };
@@ -15,6 +16,12 @@
 		18D048E51CA7A7F700F7C77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D048E31CA7A7F700F7C77F /* LaunchScreen.storyboard */; };
 		18D048F01CA7A7F700F7C77F /* TT___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D048EF1CA7A7F700F7C77F /* TT___Tests.m */; };
 		18D048FB1CA7A7F700F7C77F /* TT___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D048FA1CA7A7F700F7C77F /* TT___UITests.m */; };
+		18D049091CA7A81D00F7C77F /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D049081CA7A81D00F7C77F /* 1.plist */; };
+		18D0490C1CA7A86800F7C77F /* TTShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0490B1CA7A86800F7C77F /* TTShop.m */; };
+		18D049101CA7A90C00F7C77F /* TTShopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D0490E1CA7A90C00F7C77F /* TTShopCollectionViewCell.m */; };
+		18D049111CA7A90C00F7C77F /* TTShopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D0490F1CA7A90C00F7C77F /* TTShopCollectionViewCell.xib */; };
+		18D049131CA7B3C700F7C77F /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D049121CA7B3C700F7C77F /* placeholder.png */; };
+		18D049161CA7B49100F7C77F /* TTWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D049151CA7B49100F7C77F /* TTWaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A1842CA32AF4D968529216 /* Pods-TT瀑布流.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT瀑布流.release.xcconfig"; path = "Pods/Target Support Files/Pods-TT瀑布流/Pods-TT瀑布流.release.xcconfig"; sourceTree = "<group>"; };
+		15554DA5E15FF345A201489A /* libPods-TT瀑布流.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TT瀑布流.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D048D21CA7A7F700F7C77F /* TT瀑布流.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TT瀑布流.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D048D61CA7A7F700F7C77F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18D048D81CA7A7F700F7C77F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		18D048F61CA7A7F700F7C77F /* TT瀑布流UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TT瀑布流UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D048FA1CA7A7F700F7C77F /* TT___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TT___UITests.m"; sourceTree = "<group>"; };
 		18D048FC1CA7A7F700F7C77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D049081CA7A81D00F7C77F /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		18D0490A1CA7A86800F7C77F /* TTShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShop.h; sourceTree = "<group>"; };
+		18D0490B1CA7A86800F7C77F /* TTShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShop.m; sourceTree = "<group>"; };
+		18D0490D1CA7A90C00F7C77F /* TTShopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTShopCollectionViewCell.h; sourceTree = "<group>"; };
+		18D0490E1CA7A90C00F7C77F /* TTShopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTShopCollectionViewCell.m; sourceTree = "<group>"; };
+		18D0490F1CA7A90C00F7C77F /* TTShopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTShopCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D049121CA7B3C700F7C77F /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		18D049141CA7B49100F7C77F /* TTWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWaterFlowLayout.h; sourceTree = "<group>"; };
+		18D049151CA7B49100F7C77F /* TTWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWaterFlowLayout.m; sourceTree = "<group>"; };
+		4150F3C9B4219BDBCE32FC2D /* Pods-TT瀑布流.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT瀑布流.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TT瀑布流/Pods-TT瀑布流.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FC7ED225AB5312E04B91F3 /* libPods-TT瀑布流.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0006DE910588FBFEBC42990E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15554DA5E15FF345A201489A /* libPods-TT瀑布流.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18D048C91CA7A7F700F7C77F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				18D048EE1CA7A7F700F7C77F /* TT瀑布流Tests */,
 				18D048F91CA7A7F700F7C77F /* TT瀑布流UITests */,
 				18D048D31CA7A7F700F7C77F /* Products */,
+				9321489B74B5757191D1EA00 /* Pods */,
+				0006DE910588FBFEBC42990E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +133,20 @@
 			children = (
 				18D048D81CA7A7F700F7C77F /* AppDelegate.h */,
 				18D048D91CA7A7F700F7C77F /* AppDelegate.m */,
+				18D0490A1CA7A86800F7C77F /* TTShop.h */,
+				18D0490B1CA7A86800F7C77F /* TTShop.m */,
+				18D0490D1CA7A90C00F7C77F /* TTShopCollectionViewCell.h */,
+				18D0490E1CA7A90C00F7C77F /* TTShopCollectionViewCell.m */,
+				18D0490F1CA7A90C00F7C77F /* TTShopCollectionViewCell.xib */,
 				18D048DB1CA7A7F700F7C77F /* ViewController.h */,
 				18D048DC1CA7A7F700F7C77F /* ViewController.m */,
+				18D049141CA7B49100F7C77F /* TTWaterFlowLayout.h */,
+				18D049151CA7B49100F7C77F /* TTWaterFlowLayout.m */,
 				18D048DE1CA7A7F700F7C77F /* Main.storyboard */,
 				18D048E11CA7A7F700F7C77F /* Assets.xcassets */,
+				18D049121CA7B3C700F7C77F /* placeholder.png */,
 				18D048E31CA7A7F700F7C77F /* LaunchScreen.storyboard */,
+				18D049081CA7A81D00F7C77F /* 1.plist */,
 				18D048E61CA7A7F700F7C77F /* Info.plist */,
 				18D048D51CA7A7F700F7C77F /* Supporting Files */,
 			);
@@ -140,6 +179,15 @@
 			path = "TT瀑布流UITests";
 			sourceTree = "<group>";
 		};
+		9321489B74B5757191D1EA00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4150F3C9B4219BDBCE32FC2D /* Pods-TT瀑布流.debug.xcconfig */,
+				12A1842CA32AF4D968529216 /* Pods-TT瀑布流.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D048FF1CA7A7F700F7C77F /* Build configuration list for PBXNativeTarget "TT瀑布流" */;
 			buildPhases = (
+				DD90D28F66E055ED5C78A232 /* Check Pods Manifest.lock */,
 				18D048CE1CA7A7F700F7C77F /* Sources */,
 				18D048CF1CA7A7F700F7C77F /* Frameworks */,
 				18D048D01CA7A7F700F7C77F /* Resources */,
+				38CE46594AF82846D56B040D /* Embed Pods Frameworks */,
+				FA3870EBB08A23D735133876 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +296,9 @@
 			files = (
 				18D048E51CA7A7F700F7C77F /* LaunchScreen.storyboard in Resources */,
 				18D048E21CA7A7F700F7C77F /* Assets.xcassets in Resources */,
+				18D049131CA7B3C700F7C77F /* placeholder.png in Resources */,
+				18D049111CA7A90C00F7C77F /* TTShopCollectionViewCell.xib in Resources */,
+				18D049091CA7A81D00F7C77F /* 1.plist in Resources */,
 				18D048E01CA7A7F700F7C77F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,14 +319,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38CE46594AF82846D56B040D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TT瀑布流/Pods-TT瀑布流-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD90D28F66E055ED5C78A232 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3870EBB08A23D735133876 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TT瀑布流/Pods-TT瀑布流-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18D048CE1CA7A7F700F7C77F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18D048DD1CA7A7F700F7C77F /* ViewController.m in Sources */,
+				18D049161CA7B49100F7C77F /* TTWaterFlowLayout.m in Sources */,
+				18D0490C1CA7A86800F7C77F /* TTShop.m in Sources */,
 				18D048DA1CA7A7F700F7C77F /* AppDelegate.m in Sources */,
 				18D048D71CA7A7F700F7C77F /* main.m in Sources */,
+				18D049101CA7A90C00F7C77F /* TTShopCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,22 +514,24 @@
 		};
 		18D049001CA7A7F700F7C77F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4150F3C9B4219BDBCE32FC2D /* Pods-TT瀑布流.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TT瀑布流/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "xiaoM.TT---";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoM.TT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		18D049011CA7A7F700F7C77F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12A1842CA32AF4D968529216 /* Pods-TT瀑布流.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TT瀑布流/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "xiaoM.TT---";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaoM.TT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +603,7 @@
 				18D049011CA7A7F700F7C77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D049021CA7A7F700F7C77F /* Build configuration list for PBXNativeTarget "TT瀑布流Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +612,7 @@
 				18D049041CA7A7F700F7C77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18D049051CA7A7F700F7C77F /* Build configuration list for PBXNativeTarget "TT瀑布流UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +621,7 @@
 				18D049071CA7A7F700F7C77F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
